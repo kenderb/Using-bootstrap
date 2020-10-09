@@ -36,14 +36,15 @@ i {
 
 .ul-inline-block li {
   display: inline;
-  padding: 0.2rem;
 }
 
 .ul-inline-block li + li {
-  border-left: gray solid 1px;
+  padding-left: 0.5em;
+  border-left: rgb(155, 155, 155) solid 1px;
 }
 
 .ul-inline-block {
+  width: 85%;
   margin-left: 0.8rem;
   padding-left: 0;
   margin-top: 1rem;
@@ -51,7 +52,7 @@ i {
 
 .ul-inline-block a {
   color: black;
-  font-size: 1.2rem;
+  font-size: 98%;
 }
 
 input[type=text] {
