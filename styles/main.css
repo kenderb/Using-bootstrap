@@ -89,6 +89,23 @@ input[type=text] {
   line-height: 2rem;
 }
 
+.heading-size {
+  font-size: medium;
+  margin-top: 1rem;
+}
+
+.news-title-size {
+  font-size: 1.3rem;
+}
+
+.news-summary-size {
+  font-size: small;
+}
+
+.man-title-size {
+  font-size: 1rem;
+}
+
 @media screen and (min-width: 992px) {
   .header-logo {
     margin-top: 0.1rem;
@@ -97,3 +114,4 @@ input[type=text] {
     padding-bottom: 1rem;
   }
 }
+
