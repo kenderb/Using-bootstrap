@@ -1,0 +1,20 @@
+.background-color {
+  background-color: #f72210;
+}
+
+.header-logo {
+  margin-left: -1rem;
+  width: 10rem;
+}
+
+.navbar {
+  padding: 0.01rem 0.1rem;
+}
+
+.btn {
+  text-align: center;
+  background-color: #ffe400;
+  padding: 0.1rem 1rem;
+  border-radius: 3rem;
+}
+
