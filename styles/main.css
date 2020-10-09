@@ -3,8 +3,8 @@
 }
 
 .header-logo {
-  margin-left: 1rem;
-  width: 10rem;
+  margin-top: -0.5rem;
+  width: 5rem;
 }
 
 .navbar {
@@ -12,6 +12,8 @@
 }
 
 .btn {
+  max-height: 2rem;
+  min-width: 10rem;
   text-align: center;
   background-color: #ffe400;
   padding: 0.1rem 1rem;
@@ -23,12 +25,15 @@ i {
   color: rgba(255, 255, 255, 0.699);
 }
 
-.navbar p{
+.navbar p {
   margin-bottom: 0.1rem;
 }
 
-@media screen and (min-width: 992px){
-  .header-logo{
-    width: 30rem;
+@media screen and (min-width: 992px) {
+  .header-logo {
+    margin-top: 0.1rem;
+    width: 25rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 }
