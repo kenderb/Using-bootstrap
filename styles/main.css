@@ -45,3 +45,36 @@ i {
     padding-bottom: 1rem;
   }
 }
+
+.ul-inline-block li {
+  display: inline;
+  padding: 0.2rem;
+}
+
+.ul-inline-block li +li{
+  border-left: gray solid 1px;
+}
+
+.ul-inline-block {
+  margin-left: 0;
+  padding-left: 0;
+  margin-top: 1.5rem;
+}
+
+.ul-inline-block a {
+  color: black;
+  font-size: 1rem;
+}
+
+input[type=text] {
+  width: 3.4rem;
+  border: none;
+}
+
+.fa-search {
+  color: black;
+}
+
+.max-width {
+  max-width: 93rem;
+}

@@ -20,7 +20,7 @@
   </head>
 
   <body>
-    <header class="container-fluid background-color text-light">
+    <header class="container-fluid background-color text-light max-width">
       <nav class="navbar justify-content-between flex-nowrap align-items-center nav-padding">
         <div class="d-none d-lg-block">
           <p><i class="fas fa-cloud-sun"></i> <b>20&#8451; New York City, USA &#62;</b></p>
@@ -40,8 +40,8 @@
           </a>
         </div>
       </nav>
-      <nav class=" d-none d-lg-block bg-light container-fluid ">
-        <ul class="ul-padding-left">
+      <nav class="d-none d-lg-flex align-items-baseline bg-light container-fluid pt-1 border-bottom">
+        <ul class="ul-padding-left ul-inline-block">
           <li><a href="#"><b>U.S</b></a></li>
           <li><a href="#"><b>World</b></a></li>
           <li><a href="#"><b>Business</b></a></li>
@@ -54,9 +54,9 @@
           <li><a href="#"><b>Vantage</b></a></li>
           <li><a href="#"><b>Wather</b></a></li>
         </ul>
-        <form action="submit">
-          <input type="text">
-          <button type="button">
+        <form action="submit" class="d-inline ml-1">
+          <input type="text" placeholder="Search">
+          <button class="border-0 bg-light text-dark" type="button">
             <i class="fas fa-search"></i>
           </button>
         </form>
