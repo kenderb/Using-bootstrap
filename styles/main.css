@@ -29,6 +29,14 @@ i {
   margin-bottom: 0.1rem;
 }
 
+.nav-padding {
+  padding: 1rem;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
 @media screen and (min-width: 992px) {
   .header-logo {
     margin-top: 0.1rem;
