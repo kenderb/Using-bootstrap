@@ -35,12 +35,12 @@ i {
 }
 
 .ul-inline-block li {
+  padding-left: 1.3%;
   display: inline;
 }
 
 .ul-inline-block li + li {
-  padding-left: 0.5em;
-  border-left: rgb(155, 155, 155) solid 1px;
+  border-left: #9b9b9b solid 1px;
 }
 
 .ul-inline-block {
@@ -65,7 +65,7 @@ input[type=text] {
 }
 
 .max-width {
-  max-width: 93rem;
+  max-width: 80rem;
 }
 
 .nav-two {
