@@ -8,17 +8,18 @@
 }
 
 .navbar {
-  padding: 0.01rem 0.1rem;
+  padding: 0 0.1rem;
+  margin-bottom: -0.7rem;
 }
 
 .btn {
   max-height: 2rem;
-  min-width: 10rem;
+  min-width: 9rem;
   text-align: center;
   background-color: #ffe400;
   padding: 0.1rem 1rem;
   border-radius: 3rem;
-  margin: auto 0.3rem;
+  margin: auto 0.9rem;
 }
 
 i {
@@ -29,21 +30,8 @@ i {
   margin-bottom: 0.1rem;
 }
 
-.nav-padding {
-  padding: 1rem;
-}
-
 .container-fluid {
   padding: 0;
-}
-
-@media screen and (min-width: 992px) {
-  .header-logo {
-    margin-top: 0.1rem;
-    width: 25rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
 }
 
 .ul-inline-block li {
@@ -51,19 +39,19 @@ i {
   padding: 0.2rem;
 }
 
-.ul-inline-block li +li{
+.ul-inline-block li + li {
   border-left: gray solid 1px;
 }
 
 .ul-inline-block {
-  margin-left: 0;
+  margin-left: 0.8rem;
   padding-left: 0;
-  margin-top: 1.5rem;
+  margin-top: 1rem;
 }
 
 .ul-inline-block a {
   color: black;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 input[type=text] {
@@ -77,4 +65,34 @@ input[type=text] {
 
 .max-width {
   max-width: 93rem;
+}
+
+.nav-two {
+  padding-top: 1rem;
+  position: relative;
+}
+
+.nav-two form::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: " ";
+  display: block;
+  width: 5%;
+  background-color: #f72210;
+  border-left: 12px solid #f8f9fa;
+  border-top: 13px solid #f72210;
+}
+
+.line-height {
+  line-height: 2rem;
+}
+
+@media screen and (min-width: 992px) {
+  .header-logo {
+    margin-top: 0.1rem;
+    width: 25rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
 }
