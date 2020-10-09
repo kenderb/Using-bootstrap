@@ -3,7 +3,7 @@
 }
 
 .header-logo {
-  margin-left: -1rem;
+  margin-left: 1rem;
   width: 10rem;
 }
 
@@ -16,5 +16,19 @@
   background-color: #ffe400;
   padding: 0.1rem 1rem;
   border-radius: 3rem;
+  margin: auto 0.3rem;
 }
 
+i {
+  color: rgba(255, 255, 255, 0.699);
+}
+
+.navbar p{
+  margin-bottom: 0.1rem;
+}
+
+@media screen and (min-width: 992px){
+  .header-logo{
+    width: 30rem;
+  }
+}

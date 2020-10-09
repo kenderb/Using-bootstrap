@@ -7,6 +7,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
+    <script src="https://kit.fontawesome.com/7bfe4ec72d.js" crossorigin="anonymous"></script>
     <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
@@ -20,15 +21,22 @@
 
   <body>
     <header class="container-fluid background-color text-light">
-      <nav class="navbar">
-        <a class="navbar-brand" href="#">
-          <img src="assets/images/Newsweek_Logo.svg.png" alt="Newsweek Logo" class="header-logo">
+      <nav class="navbar justify-content-between flex-sm-row">
+        <div class="d-none d-lg-block">
+          <p><i class="fas fa-cloud-sun"></i> <b>20&#8451; New York City, USA &#62;</b></p>
+          <p>Fri, Oct 09, 2020</p>
+        </div>
+        <a class="navbar-brand w-lg-25" href="#">
+          <img src="assets/images/Newsweek_Logo.svg.png" alt="Newsweek Logo" class="header-logo eng-fluid">
         </a>
-        <i class="fas fa-user"></i>
-        <button type="button" class="btn btn-warning">
-          SUBSCRIBE &#62;
-        </button>
-          
+        <div class="float-right">
+          <i class="fas fa-user d-md-none"></i>
+          <span class="d-none d-md-inline font-weight-bold">LOGIN</span>
+          <button type="button" class="btn btn-warning">
+            <b>SUBSCRIBE</b> &#62;
+          </button>
+          <i class="fas fa-bars"></i>
+        </div>
       </nav>
       
     </header>
