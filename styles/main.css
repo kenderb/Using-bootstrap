@@ -216,6 +216,31 @@ input[type=text] {
   padding-top: 1rem;
 }
 
+.news-signup {
+  width: 15rem;
+  height: 10rem;
+}
+
+.news-signup img {
+  width: 2rem;
+  height: 2rem;
+  margin: 0.5rem;
+}
+
+.news-signup h2 {
+  font-size: 1.05rem;
+  font-weight: bolder;
+  line-height: 1rem;
+  margin: 0.5rem;
+  height: 3rem;
+}
+
+.news-signup button {
+  width: 13rem;
+  margin: auto;
+  margin-top: 0.5rem;
+}
+
 @media screen and (min-width: 768px) {
   .first-section-grid {
     grid-template-columns: repeat(2,1fr);
