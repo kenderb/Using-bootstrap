@@ -188,6 +188,35 @@ input[type=text] {
   font-size: 0.8rem;
 }
 
+.first-section-grid {
+  display: grid;
+  grid-template-areas: "top-story" "featured-stories" "debate-container" "my-t-culture";
+}
+
+.top-story {
+  grid-area: top-story;
+}
+
+.featured-stories {
+  grid-area: featured-stories;
+}
+
+.debate-container {
+  grid-area: debate-container;
+}
+
+.my-t-culture {
+  grid-area: my-t-culture;
+}
+
+@media screen and (min-width: 768px) {
+  .first-section-grid {
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 10rem 8rem 1fr;
+    grid-template-areas: "top-story" "featured-stories" "debate-container" "my-t-culture";
+  }
+}
+
 @media screen and (min-width: 992px) {
   .header-logo {
     margin-top: 0.1rem;
@@ -196,4 +225,3 @@ input[type=text] {
     padding-bottom: 1rem;
   }
 }
-
