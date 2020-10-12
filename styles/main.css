@@ -182,8 +182,7 @@ input[type=text] {
   height: 6rem;
 }
 .resize-heading-h3 {
-  font-weight: bolder;
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 .small-p {
   font-size: 0.8rem;
