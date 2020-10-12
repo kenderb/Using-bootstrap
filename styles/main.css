@@ -212,11 +212,14 @@ input[type=text] {
 .more-stories {
   grid-area: more-stories;
 }
+.border-top  {
+  padding-top: 1rem;
+}
 
 @media screen and (min-width: 768px) {
   .first-section-grid {
     grid-template-columns: repeat(2,1fr);
-    grid-template-rows: 30rem 45rem 1fr 1fr;
+    grid-template-rows: 30rem 33rem 1fr 1fr;
     grid-template-areas: 
     "featured-stories top-story"
     "featured-stories my-t-culture"
@@ -225,20 +228,28 @@ input[type=text] {
   }
 
   .my-t-culture img {
-    width: 6rem;
-    height: 6rem;
+    width: 7rem;
+    height: 7rem;
   }
 
   .my-t-culture article {
+    max-width: 8rem;
+    align-items: center;
     display: flex;
     flex-direction: column;
     margin-bottom: 1rem;
   }
 
+  .my-t-culture article > h2 {
+    font-size: 0.7rem;
+    padding: 0.2rem 1rem;
+  }
+
   .my-t-culture h2 {
-    font-size: 1rem;
-    margin: 0;
-    padding: 0;
+    padding: 1rem 0.5rem 0.2rem;
+  }
+  .separator {
+    border: none;
   }
 }
 
