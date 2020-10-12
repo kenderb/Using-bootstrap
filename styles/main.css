@@ -190,6 +190,7 @@ input[type=text] {
 
 .first-section-grid {
   display: grid;
+  grid-template-columns: 1fr;
   grid-template-areas: "top-story" "featured-stories" "debate-container" "more-stories" "my-t-culture";
 }
 
