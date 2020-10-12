@@ -191,7 +191,7 @@ input[type=text] {
 .first-section-grid {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-areas: "top-story" "featured-stories" "debate-container" "more-stories" "my-t-culture";
+  grid-template-areas: "top-story" "featured-stories" "debate-container" "more-stories" "my-t-culture" "news-signup";
 }
 
 .top-story {
@@ -218,6 +218,8 @@ input[type=text] {
 }
 
 .news-signup {
+  grid-area: news-signup;
+  margin: auto;
   width: 15rem;
   height: 10rem;
 }
@@ -245,12 +247,13 @@ input[type=text] {
 @media screen and (min-width: 768px) {
   .first-section-grid {
     grid-template-columns: repeat(2,1fr);
-    grid-template-rows: 30rem 33rem 1fr 1fr;
+    grid-template-rows: 30rem 33rem 138rem 1fr;
     grid-template-areas: 
     "featured-stories top-story"
     "featured-stories my-t-culture"
     "featured-stories more-stories"
-    "debate-container debate-container";
+    "debate-container debate-container"
+    "news-signup news-signup";
   }
 
   .my-t-culture img {
@@ -286,4 +289,19 @@ input[type=text] {
     padding-top: 1rem;
     padding-bottom: 1rem;
   }
+
+  .first-section-grid {
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 30rem 33rem 10% 1fr;
+    grid-template-areas: 
+    "featured-stories top-story debate-container"
+    "featured-stories my-t-culture  debate-container"
+    "featured-stories more-stories debate-container"
+    "featured-stories more-stories news-signup";
+  }
+  .news-signup {
+    margin: 0 auto;
+  }
+  
+
 }

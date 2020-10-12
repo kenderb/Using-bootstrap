@@ -19,9 +19,9 @@
     <title>Newsweek clone page</title>
   </head>
 
-  <body>
+  <body class="bg-light">
     <header class="container-fluid background-color text-light max-width min-width-container">
-      <nav class="navbar justify-content-between flex-nowrap align-items-center p-lg-1 px-2">
+      <nav class="navbar justify-content-between flex-nowrap align-items-center p-lg-1 px-2 my-auto">
         <div class="d-none d-lg-block ml-3 line-height">
           <p><i class="fas fa-cloud-sun"></i> <b>20&#8451; New York City, USA &#62;</b></p>
           <p>Fri, Oct 09, 2020</p>
@@ -41,7 +41,7 @@
         </div>
       </nav>
       <nav class="d-none
-                  d-lg-flex align-items-baseline bg-light 
+                  d-lg-flex align-items-baseline bg-white 
                   container-fluid pt-1 border-bottom nav-two 
                   justify-content-between">
         <ul class="ul-inline-block d-flex justify-content-between">
@@ -64,8 +64,8 @@
           </button>
         </form>
       </nav>
-      <nav class="bg-light d-none d-lg-block">
-        <ul class="w-75 d-flex align-items-left justify-content-between">
+      <nav class="bg-white d-none d-lg-block border-bottom">
+        <ul class="w-75 d-flex align-items-left justify-content-between list-unstyled p-2 mb-n1">
           <li><a class="text-dark" href="#"><b>TRENDING</b></a></li>
           <li><a class="text-muted" href="#"><b>DONALD TRUMP</b></a></li>
           <li><a class="text-muted" href="#"><b>JOE BIDEN</b></a></li>
@@ -75,8 +75,8 @@
         </ul>
       </nav>
     </header>
-    <main class="min-width-container">
-      <div class="first-section-grid">
+    <main class="min-width-container max-width container-fluid bg-white">
+      <div class="first-section-grid ">
         <section class="p-2 separator top-story">
           <h2 class="text-muted heading-size"><b>TOP STORY</b></h2>
           <article class="p-2">
@@ -113,7 +113,7 @@
             <p class="news-summary-size">Frequently cited estimates suggest this can only be achieved when 60 percent or more of the population is infected.</p>
           </article>
         </section>
-        <section class=" debate-container">
+        <section class="debate-container">
           <h2 class="text-muted heading-size pb-4  p-2"><b>DEBATE</b></h2>
           <div class="position-relative main-debate-container separator p-2">
             <a href="#" class="d-flex man-one text-dark pt-3 ">
@@ -142,7 +142,7 @@
                 </h2>
                 <span class="text-muted">By <b>Eric Swalwell</b></span>
               </div>
-              <img class="min-images" src="assets/images/man-2.png" alt="man">
+              <img class="min-images mr-2" src="assets/images/man-2.png" alt="man">
             </a>
           </div>
           <div class="opinion p-2 separator">
@@ -454,7 +454,7 @@
             </div>
           </section>
         </div>
-        <div class="container p-2 bg-light border news-signup">
+        <div class="container p-2 bg-light border news-signup d-sm-none d-md-block">
           <div class="d-flex">
             <img src="https://g.newsweek.com/www/images/logo-n1.svg" alt="alt" class="bg-danger">
             <h2>Start your day with our top 5 articles</h2>
