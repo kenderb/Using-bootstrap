@@ -1,3 +1,8 @@
+
+:root {
+  --gray-one:  #cfcfcf;
+  --big-border: 1.5rem solid #ececec;
+}
 .background-color {
   background-color: #f72210;
 }
@@ -104,6 +109,84 @@ input[type=text] {
 
 .man-title-size {
   font-size: 1rem;
+}
+
+
+.min-width-container {
+  min-width: 331px;
+}
+
+.vs-logo {
+  z-index: 2;
+  width: 2.3rem;
+  font-size: 0.8rem;
+  background-color: black;
+  padding: 0.6rem 0.5rem;
+}
+
+.logo-container::before {
+  margin-bottom: 2.5px;
+  position: absolute;
+  content: "";
+  width: 100%;
+  display: block;
+  height: 0.1rem;
+  background-color: var(--gray-one)
+}
+
+.debate-container{
+  position: relative;
+}
+
+.logo-container::after {
+  margin-top: 2.5px;
+  position: absolute;
+  content: "";
+  width: 100%;
+  display: inline-block;
+  height: 0.1rem;
+  background-color: var(--gray-one);
+}
+
+.man-one{
+  position: static;
+}
+
+.min-images {
+  margin-top: 0.3rem;
+  width: 4rem;
+  height: 4rem;
+}
+
+.opinion a + a {
+  border-top: 1px solid var(--gray-one);
+}
+
+.separator {
+  border-bottom: var(--big-border);
+}
+
+.main-debate-container::after, 
+.main-debate-container::before{
+  margin: 0.5rem;
+  content: "";
+  display: block;
+  height: 0.3rem;
+  background-color: var(--gray-one);
+
+}
+
+.min-imge-more {
+  margin-right: 1rem;
+  width: 6rem;
+  height: 6rem;
+}
+.resize-heading-h3 {
+  font-weight: bolder;
+  font-size: 1rem;
+}
+.small-p {
+  font-size: 0.8rem;
 }
 
 @media screen and (min-width: 992px) {

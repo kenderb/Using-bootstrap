@@ -20,7 +20,7 @@
   </head>
 
   <body>
-    <header class="container-fluid background-color text-light max-width">
+    <header class="container-fluid background-color text-light max-width min-width-container">
       <nav class="navbar justify-content-between flex-nowrap align-items-center p-lg-1 px-2">
         <div class="d-none d-lg-block ml-3 line-height">
           <p><i class="fas fa-cloud-sun"></i> <b>20&#8451; New York City, USA &#62;</b></p>
@@ -75,8 +75,8 @@
         </ul>
       </nav>
     </header>
-    <main>
-      <section class="p-2">
+    <main class="min-width-container">
+      <section class="p-2 separator">
         <h2 class="text-muted heading-size"><b>TOP STORY</b></h2>
         <article class="p-2">
           <img class="img-fluid" src="https://source.unsplash.com/1500x1000" alt="image">
@@ -84,7 +84,7 @@
           <p class="news-summary-size">The Senate majority leader's remarks only reaffirm the political reality of trying to forge a bipartisan agreement leading into a major election with a president who continues to offer about-face positions on whether he wants more economic relief before voters cast their ballots.</p>
         </article>
       </section>
-      <section class="p-2">
+      <section class="p-2 separator">
         <h2 class="text-muted heading-size"><b>FEATURED STORIES</b></h2>
         <article>
           <img class="img-fluid" src="https://source.unsplash.com/1500x1001" alt="image">
@@ -112,18 +112,252 @@
           <p class="news-summary-size">Frequently cited estimates suggest this can only be achieved when 60 percent or more of the population is infected.</p>
         </article>
       </section>
-      <section class="p-2">
-        <h2 class="text-muted"><b>DEBATE</b></h2>
-        <div class="d-flex">
-          <img class="w-25 h-25" src="assets/images/man.png" alt="man">
-          <div class="p-3">
-            <h2 class="man-title-size"><b>The Time Is Now to Recommit to a National Assault Weapon Ban</b></h2>
-            <span class="text-muted">By <b>Eric Swalwell</b></span>
+      <section class=" debate-container">
+        <h2 class="text-muted heading-size pb-4  p-2"><b>DEBATE</b></h2>
+        <div class="position-relative main-debate-container separator p-2">
+          <a href="#" class="d-flex man-one text-dark pt-3">
+            <img class="min-images" src="assets/images/man.png" alt="man">
+            <div class="p-3">
+              <h2 class="man-title-size"><b> The Time Is Now to Recommit to a National Assault Weapon Ban</b></h2>
+              <span class="text-muted">By <b>Eric Swalwell</b></span>
+            </div>
+          </a>
+          <div  class="d-flex justify-content-center d-flex align-items-center logo-container flex-column">
+            <span class="vs-logo
+                        text-light 
+                        font-weight-bold 
+                        rounded-circle 
+                        text-center">
+                        VS
+              </span>
           </div>
+          <a href="#" class="d-flex man-two text-dark pb-3">
+            <div class="p-3">
+              <h2 class="man-title-size">
+                <b>
+                    So-Called 'Assault Weapon' Ban 
+                    Is Unconstitutional Political Grandstanding
+                </b>
+              </h2>
+              <span class="text-muted">By <b>Eric Swalwell</b></span>
+            </div>
+            <img class="min-images" src="assets/images/man-2.png" alt="man">
+          </a>
+        </div>
+        <div class="opinion p-2 separator">
+          <h2 class="text-muted heading-size pt-2"><b>OPINION</b> </h2>
+          <a href="#" class="d-flex text-dark pt-1 pb-1">
+            <img class="min-images" src="assets/images/man-3.png" alt="man">
+            <div class="p-3">
+              <h2 class="man-title-size"><b>The Abortion Opportunity for Amy Coney Barrett's Confirmation Hearings</b></h2>
+              <span class="text-muted">By <b>John Yoo and James Phillips</b></span>
+            </div>
+          </a>
+          <a href="#" class="d-flex text-dark pt-1">
+            <img class="min-images" src="assets/images/man-4.png" alt="man">
+            <div class="p-3">
+              <h2 class="man-title-size"><b>Here are the Factors that Will Guide the Election Result</b></h2>
+              <span class="text-muted">By <b>Mark Davis</b></span>
+            </div>
+          </a>
+          <a href="#" class="d-flex text-dark pt-1">
+            <img class="min-images" src="assets/images/man-5.png" alt="man">
+            <div class="p-3">
+              <h2 class="man-title-size"><b>We are Concerned as Americans, and Appalled as Orthodox Jews</b></h2>
+              <span class="text-muted">By <b>Abraham Cooper and Yitzchok Adlerstein</b></span>
+            </div>
+          </a>
+          <a href="#" class="d-flex text-dark pt-1">
+            <img class="min-images" src="assets/images/man-6.png" alt="man">
+            <div class="p-3">
+              <h2 class="man-title-size"><b>Americans Say: Don't Ask About Amy Coney Barrett's Faith</b></h2>
+              <span class="text-muted">By <b>Kelly Shackelford</b></span>
+            </div>
+          </a>
+          <a href="#" class="d-flex text-dark pt-1">
+            <img class="min-images" src="assets/images/man-7.png" alt="man">
+            <div class="p-3">
+              <h2 class="man-title-size"><b>Biden Is Trying to Bribe Voters With Student Loan Forgiveness</b></h2>
+              <span class="text-muted">By <b>John R. Lott, Jr.</b></span>
+            </div>
+          </a>
+          <a href="#" class="d-flex text-dark pt-1">
+            <img class="min-images" src="assets/images/man-8.png" alt="man">
+            <div class="p-3">
+              <h2 class="man-title-size"><b>Why Another COVID Bailout Is Still Stalled in Washington</b></h2>
+              <span class="text-muted">By <b>Hank Gilman</b></span>
+            </div>
+          </a>
+          <a href="#" class="d-flex text-dark pt-1">
+            <img class="min-images" src="assets/images/man-9.png" alt="man">
+            <div class="p-3">
+              <h2 class="man-title-size"><b>What to Do About Columbus Day</b></h2>
+              <span class="text-muted">By <b>Peter Roff</b></span>
+            </div>
+          </a>
+          <a href="#" class="d-flex text-dark pt-1">
+            <img class="min-images" src="assets/images/man-10.png" alt="man">
+            <div class="p-3">
+              <h2 class="man-title-size"><b>The Biden-Harris Radical Scheme to Pack the Supreme Court</b></h2>
+              <span class="text-muted">By <b>Mike Davis</b></span>
+            </div>
+          </a>
+        </div>
+        <div class="separator mt-2"></div>
+        <div>
+          <h2 class="text-muted heading-size  p-2">
+            <b>MORE STORIES</b> 
+          </h2>
+          <article class="m-2 border-top">
+            <img src="https://source.unsplash.com/80x80" alt="These 4 image" class="min-imge-more float-left mt-3">
+            <h3 class="resize-heading-h3 font-weight-bold mt-3">
+              These 4 GOP Governors Refused to 
+              Sign Letter Supporting Amy Coney Barrett 
+            </h3>
+            <p class="small-p">
+              Just four of the nation's Republican governors have 
+              opted out of adding their name to a letter supporting Amy 
+              Coney Barrett's confirmation to the Supreme Court.
+            </p>
+          </article>
+          <article class="m-2 border-top">
+            <img src="https://source.unsplash.com/81x81" alt="These 4 image" class="min-imge-more float-left mt-3">
+            <h3 class="resize-heading-h3 font-weight-bold mt-3">
+              California GOP Accused of Setting Up Fake Official Ballot Drop-Off 
+              BoxesCalifornia GOP 
+              Accused of Setting Up Fake Official Ballot Drop-Off Boxes 
+            </h3>
+            <p class="small-p">
+              Just four of the nation's Republican governors have 
+              opted out of adding their name to a letter supporting Amy 
+              Coney Barrett's confirmation to the Supreme Court.
+            </p>
+          </article>
+          <article class="m-2 border-top">
+            <img src="https://source.unsplash.com/80x80" alt="These 4 image" class="min-imge-more float-left mt-3">
+            <h3 class="resize-heading-h3 font-weight-bold mt-3">
+              These 4 GOP Governors Refused to 
+              Sign Letter Supporting Amy Coney Barrett 
+            </h3>
+            <p class="small-p">
+              Just four of the nation's Republican governors have 
+              opted out of adding their name to a letter supporting Amy 
+              Coney Barrett's confirmation to the Supreme Court.
+            </p>
+          </article>
+          <article class="m-2 border-top">
+            <img src="https://source.unsplash.com/80x80" alt="These 4 image" class="min-imge-more float-left mt-3">
+            <h3 class="resize-heading-h3 font-weight-bold mt-3">
+              These 4 GOP Governors Refused to 
+              Sign Letter Supporting Amy Coney Barrett 
+            </h3>
+            <p class="small-p">
+              Just four of the nation's Republican governors have 
+              opted out of adding their name to a letter supporting Amy 
+              Coney Barrett's confirmation to the Supreme Court.
+            </p>
+          </article>
+          <article class="m-2 border-top">
+            <img src="https://source.unsplash.com/80x80" alt="These 4 image" class="min-imge-more float-left mt-3">
+            <h3 class="resize-heading-h3 font-weight-bold mt-3">
+              These 4 GOP Governors Refused to 
+              Sign Letter Supporting Amy Coney Barrett 
+            </h3>
+            <p class="small-p">
+              Just four of the nation's Republican governors have 
+              opted out of adding their name to a letter supporting Amy 
+              Coney Barrett's confirmation to the Supreme Court.
+            </p>
+          </article>
+          <article class="m-2 border-top">
+            <img src="https://source.unsplash.com/80x80" alt="These 4 image" class="min-imge-more float-left mt-3">
+            <h3 class="resize-heading-h3 font-weight-bold mt-3">
+              These 4 GOP Governors Refused to 
+              Sign Letter Supporting Amy Coney Barrett 
+            </h3>
+            <p class="small-p">
+              Just four of the nation's Republican governors have 
+              opted out of adding their name to a letter supporting Amy 
+              Coney Barrett's confirmation to the Supreme Court.
+            </p>
+          </article>
+          <article class="m-2 border-top">
+            <img src="https://source.unsplash.com/80x80" alt="These 4 image" class="min-imge-more float-left mt-3">
+            <h3 class="resize-heading-h3 font-weight-bold mt-3">
+              These 4 GOP Governors Refused to 
+              Sign Letter Supporting Amy Coney Barrett 
+            </h3>
+            <p class="small-p">
+              Just four of the nation's Republican governors have 
+              opted out of adding their name to a letter supporting Amy 
+              Coney Barrett's confirmation to the Supreme Court.
+            </p>
+          </article>
+          <article class="m-2 border-top">
+            <img src="https://source.unsplash.com/80x80" alt="These 4 image" class="min-imge-more float-left mt-3">
+            <h3 class="resize-heading-h3 font-weight-bold mt-3">
+              These 4 GOP Governors Refused to 
+              Sign Letter Supporting Amy Coney Barrett 
+            </h3>
+            <p class="small-p">
+              Just four of the nation's Republican governors have 
+              opted out of adding their name to a letter supporting Amy 
+              Coney Barrett's confirmation to the Supreme Court.
+            </p>
+          </article>
+          <article class="m-2 border-top">
+            <img src="https://source.unsplash.com/80x80" alt="These 4 image" class="min-imge-more float-left mt-3">
+            <h3 class="resize-heading-h3 font-weight-bold mt-3">
+              These 4 GOP Governors Refused to 
+              Sign Letter Supporting Amy Coney Barrett 
+            </h3>
+            <p class="small-p">
+              Just four of the nation's Republican governors have 
+              opted out of adding their name to a letter supporting Amy 
+              Coney Barrett's confirmation to the Supreme Court.
+            </p>
+          </article>
+          <article class="m-2 border-top">
+            <img src="https://source.unsplash.com/80x80" alt="These 4 image" class="min-imge-more float-left mt-3">
+            <h3 class="resize-heading-h3 font-weight-bold mt-3">
+              These 4 GOP Governors Refused to 
+              Sign Letter Supporting Amy Coney Barrett 
+            </h3>
+            <p class="small-p">
+              Just four of the nation's Republican governors have 
+              opted out of adding their name to a letter supporting Amy 
+              Coney Barrett's confirmation to the Supreme Court.
+            </p>
+          </article>
+          <article class="m-2 border-top">
+            <img src="https://source.unsplash.com/80x80" alt="These 4 image" class="min-imge-more float-left mt-3">
+            <h3 class="resize-heading-h3 font-weight-bold mt-3">
+              These 4 GOP Governors Refused to 
+              Sign Letter Supporting Amy Coney Barrett 
+            </h3>
+            <p class="small-p">
+              Just four of the nation's Republican governors have 
+              opted out of adding their name to a letter supporting Amy 
+              Coney Barrett's confirmation to the Supreme Court.
+            </p>
+          </article>
+          <article class="m-2 border-top">
+            <img src="https://source.unsplash.com/80x80" alt="These 4 image" class="min-imge-more float-left mt-3">
+            <h3 class="resize-heading-h3 font-weight-bold mt-3">
+              These 4 GOP Governors Refused to 
+              Sign Letter Supporting Amy Coney Barrett 
+            </h3>
+            <p class="small-p">
+              Just four of the nation's Republican governors have 
+              opted out of adding their name to a letter supporting Amy 
+              Coney Barrett's confirmation to the Supreme Court.
+            </p>
+          </article>
+
         </div>
       </section>
     </main>
-    <footer>
+    <footer class="min-width-container">
 
     </footer>
     <!-- Optional JavaScript -->
