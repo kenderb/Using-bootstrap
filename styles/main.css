@@ -249,7 +249,7 @@ input[type=text] {
 @media screen and (min-width: 768px) {
   .first-section-grid {
     grid-template-columns: 3fr 4fr;
-    grid-template-rows: 33rem 33rem 130rem;
+    grid-template-rows: 33rem 35rem 130rem;
     grid-template-areas:
       "featured-stories top-story"
       "featured-stories my-t-culture"
@@ -258,9 +258,9 @@ input[type=text] {
   }
 
   .my-t-culture img {
-    width: 8rem;
+    max-width: 9rem;
     height: 8rem;
-    padding-right: 1rem;
+    padding: 0.1rem 0.5rem;
   }
 
   .my-t-culture article {
@@ -272,12 +272,12 @@ input[type=text] {
   }
 
   .my-t-culture h2 {
-    padding: 1rem 0.5rem 0.2rem;
+    padding: 1rem 0.01rem 0.5rem;
   }
 
   .my-t-culture article > h2 {
     font-size: 0.7rem;
-    padding: 0.2rem 1rem;
+    padding: 0.2rem 0.1rem;
   }
 
   .separator {
@@ -295,7 +295,7 @@ input[type=text] {
 
   .first-section-grid {
     grid-template-columns: 3fr 4fr 3fr;
-    grid-template-rows: 30rem 33rem 33rem 1fr;
+    grid-template-rows: 30rem 35rem 33rem 1fr;
     grid-template-areas:
       "featured-stories top-story debate-container"
       "featured-stories my-t-culture  debate-container"
