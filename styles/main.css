@@ -1,8 +1,9 @@
 
 :root {
-  --gray-one:  #cfcfcf;
+  --gray-one: #cfcfcf;
   --big-border: 1.5rem solid #ececec;
 }
+
 .background-color {
   background-color: #f72210;
 }
@@ -111,7 +112,6 @@ input[type=text] {
   font-size: 1rem;
 }
 
-
 .min-width-container {
   min-width: 331px;
 }
@@ -131,14 +131,15 @@ input[type=text] {
   width: 100%;
   display: block;
   height: 0.1rem;
-  background-color: var(--gray-one)
+  background-color: var(--gray-one);
 }
 
-.debate-container{
+.debate-container {
+  grid-area: debate-container;
   position: relative;
 }
 
-.max-width-ul{
+.max-width-ul {
   max-width: 79%;
 }
 
@@ -152,7 +153,7 @@ input[type=text] {
   background-color: var(--gray-one);
 }
 
-.man-one{
+.man-one {
   position: static;
 }
 
@@ -170,14 +171,13 @@ input[type=text] {
   border-bottom: var(--big-border);
 }
 
-.main-debate-container::after, 
-.main-debate-container::before{
+.main-debate-container::after,
+.main-debate-container::before {
   margin: 0.5rem;
   content: "";
   display: block;
   height: 0.3rem;
   background-color: var(--gray-one);
-
 }
 
 .min-imge-more {
@@ -185,9 +185,11 @@ input[type=text] {
   width: 6rem;
   height: 6rem;
 }
+
 .resize-heading-h3 {
   font-size: 0.9rem;
 }
+
 .small-p {
   font-size: 0.8rem;
 }
@@ -206,10 +208,6 @@ input[type=text] {
   grid-area: featured-stories;
 }
 
-.debate-container {
-  grid-area: debate-container;
-}
-
 .my-t-culture {
   grid-area: my-t-culture;
 }
@@ -217,7 +215,8 @@ input[type=text] {
 .more-stories {
   grid-area: more-stories;
 }
-.border-top  {
+
+.border-top {
   padding-top: 1rem;
 }
 
@@ -251,11 +250,11 @@ input[type=text] {
   .first-section-grid {
     grid-template-columns: 3fr 4fr;
     grid-template-rows: 33rem 33rem 130rem;
-    grid-template-areas: 
-    "featured-stories top-story"
-    "featured-stories my-t-culture"
-    "featured-stories more-stories"
-    "debate-container debate-container";
+    grid-template-areas:
+      "featured-stories top-story"
+      "featured-stories my-t-culture"
+      "featured-stories more-stories"
+      "debate-container debate-container";
   }
 
   .my-t-culture img {
@@ -272,14 +271,15 @@ input[type=text] {
     margin-bottom: 1rem;
   }
 
+  .my-t-culture h2 {
+    padding: 1rem 0.5rem 0.2rem;
+  }
+
   .my-t-culture article > h2 {
     font-size: 0.7rem;
     padding: 0.2rem 1rem;
   }
 
-  .my-t-culture h2 {
-    padding: 1rem 0.5rem 0.2rem;
-  }
   .separator {
     border: none;
   }
@@ -296,16 +296,14 @@ input[type=text] {
   .first-section-grid {
     grid-template-columns: 3fr 4fr 3fr;
     grid-template-rows: 30rem 33rem 33rem 1fr;
-    grid-template-areas: 
-    "featured-stories top-story debate-container"
-    "featured-stories my-t-culture  debate-container"
-    "featured-stories more-stories debate-container"
-    "featured-stories more-stories  . ";
-    
+    grid-template-areas:
+      "featured-stories top-story debate-container"
+      "featured-stories my-t-culture  debate-container"
+      "featured-stories more-stories debate-container"
+      "featured-stories more-stories  . ";
   }
+
   .news-signup {
     margin: 0 auto;
   }
-  
-
 }
