@@ -226,7 +226,7 @@ input[type=text] {
   height: 10rem;
 }
 
-.n-img{
+.n-img {
   width: 2rem;
   height: 2rem;
   margin: 0.5rem;
@@ -284,6 +284,10 @@ input[type=text] {
     margin-bottom: 1rem;
   }
 
+  .magazine-section h2 {
+    font-size: 1.1rem;
+  }
+
   .my-t-culture h2 {
     padding: 1rem 0.01rem 0.5rem;
   }
@@ -295,6 +299,18 @@ input[type=text] {
 
   .separator {
     border: none;
+  }
+
+  .my-3 span {
+    font-size: 0.7rem;
+  }
+
+  .col-md-3 h5 {
+    font-size: 1rem;
+  }
+
+  .h-img-md {
+    height: 60%;
   }
 }
 
