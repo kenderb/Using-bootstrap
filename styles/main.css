@@ -138,6 +138,10 @@ input[type=text] {
   position: relative;
 }
 
+.max-width-ul{
+  max-width: 79%;
+}
+
 .logo-container::after {
   margin-top: 2.5px;
   position: absolute;
@@ -191,7 +195,7 @@ input[type=text] {
 .first-section-grid {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-areas: "top-story" "featured-stories" "debate-container" "more-stories" "my-t-culture" "news-signup";
+  grid-template-areas: "top-story" "featured-stories" "debate-container" "more-stories" "my-t-culture";
 }
 
 .top-story {
@@ -218,7 +222,6 @@ input[type=text] {
 }
 
 .news-signup {
-  grid-area: news-signup;
   margin: auto;
   width: 15rem;
   height: 10rem;
@@ -246,19 +249,19 @@ input[type=text] {
 
 @media screen and (min-width: 768px) {
   .first-section-grid {
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: 30rem 33rem 138rem 1fr;
+    grid-template-columns: 3fr 4fr;
+    grid-template-rows: 33rem 33rem 130rem;
     grid-template-areas: 
     "featured-stories top-story"
     "featured-stories my-t-culture"
     "featured-stories more-stories"
-    "debate-container debate-container"
-    "news-signup news-signup";
+    "debate-container debate-container";
   }
 
   .my-t-culture img {
-    width: 7rem;
-    height: 7rem;
+    width: 8rem;
+    height: 8rem;
+    padding-right: 1rem;
   }
 
   .my-t-culture article {
@@ -291,13 +294,13 @@ input[type=text] {
   }
 
   .first-section-grid {
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: 30rem 33rem 10% 1fr;
+    grid-template-columns: 3fr 4fr 3fr;
+    grid-template-rows: 30rem 33rem 33rem 1fr;
     grid-template-areas: 
     "featured-stories top-story debate-container"
     "featured-stories my-t-culture  debate-container"
     "featured-stories more-stories debate-container"
-    "featured-stories more-stories news-signup";
+    "featured-stories more-stories  . ";
     
   }
   .news-signup {

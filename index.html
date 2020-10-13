@@ -23,7 +23,7 @@
     <header class="container-fluid background-color text-light max-width min-width-container">
       <nav class="navbar justify-content-between flex-nowrap align-items-center p-lg-1 px-2 my-auto">
         <div class="d-none d-lg-block ml-3 line-height">
-          <p><i class="fas fa-cloud-sun"></i> <b>20&#8451; New York City, USA &#62;</b></p>
+          <p><i class="fas fa-cloud-sun"></i> <b>20&#8451; New York City, USA <i class="fas fa-chevron-right"></i></b></p>
           <p>Fri, Oct 09, 2020</p>
         </div>
         <a class="navbar-brand w-lg-25" href="#">
@@ -32,8 +32,8 @@
         <div class="d-flex align-items-center">
           <i class="fas fa-user d-md-none"></i>
           <span class="d-none d-md-inline font-weight-bold">LOGIN</span>
-          <button type="button" class="btn btn-warning">
-            <b>SUBSCRIBE &#62; </b>
+          <button type="button" class="btn btn-warning pt-1">
+            <b>SUBSCRIBE <i class="fas fa-chevron-right text-dark"></i> </b>
           </button>
           <a href="#">
             <i class="fas fa-bars d-lg-none"></i>
@@ -65,10 +65,10 @@
         </form>
       </nav>
       <nav class="bg-white d-none d-lg-block border-bottom">
-        <ul class="w-75 d-flex align-items-left justify-content-between list-unstyled p-2 mb-n1">
-          <li><a class="text-dark" href="#"><b>TRENDING</b></a></li>
-          <li><a class="text-muted" href="#"><b>DONALD TRUMP</b></a></li>
-          <li><a class="text-muted" href="#"><b>JOE BIDEN</b></a></li>
+        <ul class="max-width-ul d-flex align-items-left justify-content-between list-unstyled p-2 mb-n1 ml-3">
+          <li><a class="text-dark " href="#"><b>TRENDING</b></a></li>
+          <li><a class="text-muted " href="#"><b>DONALD TRUMP</b></a></li>
+          <li><a class="text-muted " href="#"><b>JOE BIDEN</b></a></li>
           <li><a class="text-muted" href="#"><b>STIMULUS PACKAGE</b></a></li>
           <li><a class="text-muted" href="#"><b>CORONAVIRUS</b></a></li>
           <li><a class="text-muted" href="#"><b>2020 ELECTIONS</b></a></li>
@@ -76,9 +76,9 @@
       </nav>
     </header>
     <main class="min-width-container max-width container-fluid bg-white">
-      <div class="first-section-grid ">
+      <div class="first-section-grid mx-md-2 mx-lg-4">
         <section class="p-2 separator top-story">
-          <h2 class="text-muted heading-size"><b>TOP STORY</b></h2>
+          <h2 class="text-muted heading-size ml-2"><b>TOP STORY</b></h2>
           <article class="p-2">
             <img class="img-fluid" src="https://source.unsplash.com/1500x1000" alt="image">
             <h2 class="news-title-size mt-2"><b>McConnell Says New Stimulus 'Unlikely' in Next 3 Weeks'; Trump Wants $1.8T</b></h2>
@@ -114,7 +114,7 @@
           </article>
         </section>
         <section class="debate-container">
-          <h2 class="text-muted heading-size pb-4  p-2"><b>DEBATE</b></h2>
+          <h2 class="text-muted heading-size pl-3 p-2"><b>DEBATE</b></h2>
           <div class="position-relative main-debate-container separator p-2">
             <a href="#" class="d-flex man-one text-dark pt-3 ">
               <img class="min-images" src="assets/images/man.png" alt="man">
@@ -205,6 +205,16 @@
             </a>
           </div>
           <div class="separator mt-2"></div>
+          <div class="container p-2 bg-light border news-signup d-none d-md-flex flex-column align-items-center">
+            <div class="d-flex">
+              <img src="https://g.newsweek.com/www/images/logo-n1.svg" alt="alt" class="bg-danger">
+              <h2>Start your day with our top 5 articles</h2>
+            </div>
+            <form>
+              <input type="email" placeholder="Email Address">
+              <button type="button" class="btn-danger border-0 rounded px-4 pt-1"><b>FREE SIGN UP <i class="fas fa-chevron-right"></i></b></button>
+            </form>
+          </div>
         </section>
         <section class="separator more-stories">
           <h2 class="text-muted heading-size  p-2">
@@ -377,7 +387,7 @@
         <div class="separator my-t-culture">
           <section class="p-2">
             <h2 class="text-muted heading-size"><b>MY TURN</b></h2>
-            <div class="d-md-flex">
+            <div class="d-md-flex justify-content-center">
               <article>
                 <img class="img-fluid" src="https://source.unsplash.com/1505x1002" alt="image">
                 <h2 class="resize-heading-h3 mt-2">
@@ -418,7 +428,7 @@
                 <b>Culture & Travel</b>
               </a>
             </h2>
-            <div class="d-md-flex">
+            <div class="d-md-flex justify-content-center">
               <article>
                 <img class="img-fluid" src="https://source.unsplash.com/1506x1007" alt="image">
                 <h2 class="resize-heading-h3 mt-2">
@@ -453,16 +463,6 @@
               </article>
             </div>
           </section>
-        </div>
-        <div class="container p-2 bg-light border news-signup d-sm-none d-md-block">
-          <div class="d-flex">
-            <img src="https://g.newsweek.com/www/images/logo-n1.svg" alt="alt" class="bg-danger">
-            <h2>Start your day with our top 5 articles</h2>
-          </div>
-          <form>
-            <input type="email" placeholder="Email Address">
-            <button type="button" class="btn-danger border-0 rounded px-4"><b>FREE SIGN UP ></b></button>
-          </form>
         </div>
       </div>
     </main>
