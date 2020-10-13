@@ -136,7 +136,6 @@ input[type=text] {
 
 .debate-container {
   grid-area: debate-container;
-  position: relative;
 }
 
 .max-width-ul {
@@ -262,7 +261,7 @@ input[type=text] {
 @media screen and (min-width: 768px) {
   .first-section-grid {
     grid-template-columns: 3fr 4fr;
-    grid-template-rows: 33rem 35rem 130rem;
+    grid-template-rows: 33rem 35rem 145rem;
     grid-template-areas:
       "featured-stories top-story"
       "featured-stories my-t-culture"
@@ -312,6 +311,12 @@ input[type=text] {
   .h-img-md {
     height: 60%;
   }
+
+  .debate-container,
+  .featured-stories {
+    position: sticky;
+    top: 0;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -324,12 +329,12 @@ input[type=text] {
 
   .first-section-grid {
     grid-template-columns: 3fr 4fr 3fr;
-    grid-template-rows: 30rem 35rem 33rem 1fr;
+    grid-template-rows: 30rem 33rem auto;
     grid-template-areas:
       "featured-stories top-story debate-container"
       "featured-stories my-t-culture  debate-container"
       "featured-stories more-stories debate-container"
-      "featured-stories more-stories  . ";
+      ". more-stories  . ";
   }
 
   .news-signup {
