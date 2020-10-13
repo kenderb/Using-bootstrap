@@ -258,6 +258,11 @@ input[type=text] {
   width: 100%;
 }
 
+.last-section h6 {
+  line-height: 1rem;
+  font-size: small;
+}
+
 @media screen and (min-width: 768px) {
   .first-section-grid {
     grid-template-columns: 3fr 4fr;
