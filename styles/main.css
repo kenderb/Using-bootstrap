@@ -296,6 +296,20 @@ input[type=text] {
   margin: auto;
 }
 
+.footer-header i {
+  color: gray;
+  font-size: x-large;
+  padding: 0.3rem;
+}
+
+.footer-header img {
+  width: 15rem;
+}
+
+.footer-header span {
+  font-size: 0.8rem;
+}
+
 @media screen and (min-width: 768px) {
   .first-section-grid {
     grid-template-columns: 3fr 4fr;
