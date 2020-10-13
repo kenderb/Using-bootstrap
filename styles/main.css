@@ -226,7 +226,7 @@ input[type=text] {
   height: 10rem;
 }
 
-.news-signup img {
+.n-img{
   width: 2rem;
   height: 2rem;
   margin: 0.5rem;
@@ -244,6 +244,19 @@ input[type=text] {
   width: 13rem;
   margin: auto;
   margin-top: 0.5rem;
+}
+
+.magazine-section {
+  width: auto;
+}
+
+.magazine-section h2 {
+  font-size: 1.3rem;
+  font-weight: bolder;
+}
+
+.magazine-cover img {
+  width: 100%;
 }
 
 @media screen and (min-width: 768px) {
