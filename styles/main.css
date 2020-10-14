@@ -21,7 +21,6 @@
 .btn {
   padding: 0.2rem 0.5rem;
   font-size: 0.7rem;
-  text-align: center;
   background-color: #ffe400;
   border-radius: 3rem;
   margin: auto 0.6rem;
@@ -214,12 +213,7 @@ input[type=text] {
   grid-area: more-stories;
 }
 
-.border-top {
-  padding-top: 1rem;
-}
-
 .news-signup {
-  margin: auto;
   width: 15rem;
   height: 10rem;
 }
@@ -240,21 +234,11 @@ input[type=text] {
 
 .news-signup button {
   width: 13rem;
-  margin: auto;
   margin-top: 0.5rem;
-}
-
-.magazine-section {
-  width: auto;
 }
 
 .magazine-section h2 {
   font-size: 1.3rem;
-  font-weight: bolder;
-}
-
-.magazine-cover img {
-  width: 100%;
 }
 
 .last-section h6 {
@@ -270,17 +254,12 @@ input[type=text] {
   line-height: 1.1rem;
 }
 
-.promotion-section button {
-  margin: auto;
-}
-
 .mini-cover-one {
   top: 0.8rem;
   left: 4rem;
 }
 
 .women-conianer {
-  margin: auto;
   padding-right: 15rem;
   width: 10rem;
 }
@@ -296,7 +275,6 @@ input[type=text] {
   background-size: cover;
   max-width: 100vw;
   height: 10rem;
-  margin: auto;
 }
 
 .footer-header i {
@@ -348,10 +326,7 @@ input[type=text] {
 
   .my-t-culture article {
     max-width: 8rem;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 1rem;
+    margin-bottom: 1.2rem;
   }
 
   .magazine-section h2 {
@@ -434,5 +409,11 @@ input[type=text] {
 
   .issue-text-size {
     font-size: 0.9rem;
+  }
+
+  .last-section h6 {
+    line-height: 1.2rem;
+    font-size: 1.2rem;
+    font-weight: bolder;
   }
 }
