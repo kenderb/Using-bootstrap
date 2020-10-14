@@ -18,7 +18,7 @@ used as well.
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/kenderb/Using-bootstrap/0d4eb292b43a297b8da9ed165562bc6b6b365f60/index.html)
+[Live Demo Link](https://rawcdn.githack.com/kenderb/Using-bootstrap/a41917d1442d7651edc1306e24307ecc743ddb1e/index.html)
 
 
 ## Getting Started
