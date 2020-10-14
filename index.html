@@ -18,26 +18,28 @@
     <link rel="stylesheet" href="styles/main.css">
     <title>Newsweek clone page</title>
   </head>
-
   <body class="bg-light">
     <header class="container-fluid background-color text-light max-width min-width-container sticky-top">
-      <nav class="navbar justify-content-between flex-nowrap align-items-center p-lg-1 px-2 my-auto">
+      <nav class="navbar justify-content-between flex-nowrap align-items-center p-lg-1 py-1 px-3 my-auto">
         <div class="d-none d-lg-block ml-3 line-height">
           <p><i class="fas fa-cloud-sun"></i> <b>20&#8451; New York City, USA <i class="fas fa-chevron-right"></i></b></p>
           <p>Fri, Oct 09, 2020</p>
         </div>
-        <a class="navbar-brand w-lg-25" href="#">
+        <a class="navbar-brand  w-lg-25" href="#">
           <img src="assets/images/Newsweek_Logo.svg.png" alt="Newsweek Logo" class="header-logo">
         </a>
         <div class="d-flex align-items-center">
           <i class="fas fa-user d-md-none"></i>
-          <span class="d-none d-md-inline font-weight-bold"><a href="#" class="text-white">LOGIN</a> </span>
-          <button type="button" class="btn btn-warning pt-1">
-            <b>  SUBSCRIBE <i class="fas fa-chevron-right text-dark"></i> </b>
-          </button>
-          <a href="#">
-            <i class="fas fa-bars d-lg-none"></i>
-          </a>
+          <div class="mb-lg-n4">
+            <span class="d-none d-md-inline font-weight-bold ">
+              <a href="#" class="text-white ">LOGIN</a> 
+            </span>
+                <b>SUBSCRIBE <i class="fas fa-chevron-right text-dark"></i></b> 
+            </button>
+            <a href="#">
+              <i class="fas fa-bars d-lg-none mr-2"></i>
+            </a>
+          </div>
         </div>
       </nav>
       <nav class="d-none
@@ -81,8 +83,17 @@
           <h2 class="text-muted heading-size ml-2"><b>TOP STORY</b></h2>
           <article class="p-2">
             <a href="#" class="text-dark">
-              <img class="img-fluid" src="https://source.unsplash.com/1500x1000" alt="image">
-              <h2 class="news-title-size mt-2"><b>McConnell Says New Stimulus 'Unlikely' in Next 3 Weeks'; Trump Wants $1.8T</b></h2>
+              <div class="position-relative">
+                <img class="img-fluid" src="https://source.unsplash.com/1500x1000" alt="image">
+                <div class="font-weight-bold position-absolute mini-text-photo text-danger py-2 px-2">
+                  WORLD
+                </div>
+              </div>
+              <h2 class="news-title-size mt-2">
+                <b>
+                  McConnell Says New Stimulus 'Unlikely' in Next 3 Weeks'; Trump Wants $1.8T
+                </b>
+              </h2>
             </a> 
             <p class="news-summary-size">The Senate majority leader's remarks only reaffirm the political reality of trying to forge a bipartisan agreement leading into a major election with a president who continues to offer about-face positions on whether he wants more economic relief before voters cast their ballots.</p>
           </article>
@@ -91,38 +102,62 @@
           <h2 class="text-muted heading-size"><b> FEATURED STORIES</b></h2>
           <article>
             <a href="#" class="text-dark">
-              <img class="img-fluid" src="https://source.unsplash.com/1500x1001" alt="image">
+              <div class="position-relative">
+                <img class="img-fluid" src="https://source.unsplash.com/1500x1001" alt="image">
+                <div class="font-weight-bold position-absolute mini-text-photo text-danger py-2 px-2">
+                  OPINION
+                </div>
+              </div>
               <h2 class="news-title-size mt-2"><b>Amy Coney Barrett Rose Garden Event Was a COVID Superspreader, Data Shows</b></h2>
             </a>
             <p class="news-summary-size">According to data, that was released on Tableau Public by Peter James Walker, at least 37 cases of the new coronavirus were confirmed within 12 days after Barrett's nomination event on September 26. Newsweek reached out to Walker for comment.</p>
           </article>
           <article>
             <a href="#" class="text-dark">
-              <img class="img-fluid" src="https://source.unsplash.com/1500x1002" alt="image">
+              <div class="position-relative">
+                <img class="img-fluid" src="https://source.unsplash.com/1500x1002" alt="image">
+                <div class="font-weight-bold position-absolute mini-text-photo text-danger py-2 px-2">
+                  TECH & SCIENCE
+                </div>
+              </div>
               <h2 class="news-title-size mt-2"><b>Voters Will Consider a Record Number of All-Female Races in 2020 Election</b></h2>
             </a>
             <p class="news-summary-size">"When women are at the decision-making table, we get a vastly different picture of what the country needs," Representative Deb Haaland told Newsweek.</p>
           </article>
           <article>
             <a href="#" class="text-dark">
-              <img class="img-fluid" src="https://source.unsplash.com/1500x1003" alt="image">
+              <div class="position-relative">
+                <img class="img-fluid" src="https://source.unsplash.com/1500x1003" alt="image">
+                <div class="font-weight-bold position-absolute mini-text-photo text-danger py-2 px-2">
+                  U.S.
+                </div>
+              </div>
               <h2 class="news-title-size mt-2"><b>Armenia, Azerbaijan Supporters At War Around World, Fighting for Awareness</b></h2>
             </a>
             <p class="news-summary-size">""I think I wouldn't be overestimating by saying every Armenian in the world is disturbed by this, is moved by this and is in action having to do with this," singer-songwriter Serj Tankian told Newsweek.</p>
           </article>
           <article>
             <a href="#" class="text-dark">
-              <img class="img-fluid" src="https://source.unsplash.com/1500x1004" alt="image">
+              <div class="position-relative">
+                <img class="img-fluid" src="https://source.unsplash.com/1500x1004" alt="image">
+                <div class="font-weight-bold position-absolute mini-text-photo text-danger py-2 px-2">
+                  NEWS
+                </div>
+              </div>
               <h2 class="news-title-size mt-2"><b>Hurricane Delta Set to Hit Area of Louisiana Where 10,000 Homes Destroyed</b></h2>
             </a> 
             <p class="news-summary-size">"Hurricane Delta is expected to make landfall on Friday evening in almost the exact area devastated by Hurricane Laura in August.</p>
           </article>
           <article>
             <a href="#" class="text-dark">
-              <img class="img-fluid" src="https://source.unsplash.com/1500x1005" alt="image">
+              <div class="position-relative">
+                <img class="img-fluid" src="https://source.unsplash.com/1500x1005" alt="image">
+                <div class="font-weight-bold position-absolute mini-text-photo text-danger py-2 px-2">
+                  NEWS
+                </div>
+              </div>
               <h2 class="news-title-size mt-2"><b>U.S. Could Reach Herd Immunity with 47 Percent Infection Rate, Study Finds</b></h2>
             </a>
-            
             <p class="news-summary-size">Frequently cited estimates suggest this can only be achieved when 60 percent or more of the population is infected.</p>
           </article>
         </section>
@@ -503,7 +538,12 @@
         </div>
         <div class="row">
           <div class="magazine-cover col-md-3">
-            <img class="img-fluid" src="assets/images/cover.jpg" alt="image">
+            <div class="position-relative">
+              <img class="img-fluid" src="assets/images/cover.jpg" alt="image">
+              <div class=" font-weight-bold position-absolute mini-text-photo text-danger py-2 px-2 issue-text-size">
+                OCTOBER 16 ISSUE
+              </div>
+            </div>   
             <h2 class="m-2 text-center h5-md"><b><a href="#" class="text-dark">SEE ALL FEATURES ></a></b></h2>
           </div>
           <div  class="col-md-3">
@@ -567,10 +607,13 @@
             </h5>
           </div>
           <div class="col-md-3">
-            <img class="img-fluid w-100 h-img-md" src="assets/images/ugly-lady7.jpg" alt="lady">
-            <div class="my-3">
+            <div class="position-relative">
+              <img class="img-fluid w-100 h-img-md" src="assets/images/ugly-lady7.jpg" alt="lady">
+              <div class=" font-weight-bold position-absolute mini-text-photo text-white py-1 px-1 bg-danger">
+                IN FOCUS
+              </div>
             </div>
-            <h5>
+            <h5 class="my-3">
               <a class="text-dark font-weight-bolder" href="#">DISSENT</a>
             </h5>
           </div>
@@ -584,9 +627,16 @@
         <div class="row border-bottom">
           <article  class="col-md-6 col-lg-3">
             <div class="position-relative">
-              <a href="#"><img class="img-fluid" src="https://source.unsplash.com/1509x1003" alt="image"></a>
+              <a href="#">
+                <div class="position-relative">
+                  <img class="img-fluid" src="https://source.unsplash.com/1509x1003" alt="image">
+                  <div class=" font-weight-bold position-absolute mini-text-photo text-danger py-2 px-4">
+                    U.S
+                  </div>
+                </div>  
+              </a>
             </div>
-            
+          
             <h2 class="news-title-size mt-2">
               <b>
                 <a href="#" class="text-dark">Donald Trump Outspends Joe Biden on Facebook Ads In These Key States</a>
@@ -600,7 +650,14 @@
           </article>
           <article class="col-md-6 col-lg-3">
             <div class="position-relative">
-              <a href="#"><img class="img-fluid" src="https://source.unsplash.com/1512x1010" alt="image"></a>
+              <a href="#">
+                <div class="position-relative">
+                  <img class="img-fluid" src="https://source.unsplash.com/1512x1010" alt="image">
+                  <div class=" font-weight-bold position-absolute mini-text-photo text-danger py-2 px-4">
+                    POLITICS
+                  </div>
+                </div>   
+              </a>
             </div>
             
             <h2 class="news-title-size mt-2">
@@ -619,7 +676,14 @@
           </article>
           <article class="col-md-6 col-lg-3">
             <div class="position-relative">
-              <a href="#"><img class="img-fluid" src="https://source.unsplash.com/1511x1005" alt="image"></a>
+              <a href="#">
+                <div class="position-relative">
+                  <img class="img-fluid" src="https://source.unsplash.com/1511x1005" alt="image">
+                  <div class=" font-weight-bold position-absolute mini-text-photo text-danger py-2 px-4">
+                    POLITICS
+                  </div>
+                </div>            
+              </a>
             </div>
             
             <h2 class="news-title-size mt-2">
@@ -638,7 +702,13 @@
           </article>
           <article class="col-md-6 col-lg-3">
             <a class="position-relative" href="#">
-              <img class="img-fluid" src="https://source.unsplash.com/1517x1009" alt="image">
+              <div class="position-relative">
+                <img class="img-fluid" src="https://source.unsplash.com/1517x1009" alt="image">
+                <div class=" font-weight-bold position-absolute mini-text-photo text-danger py-2 px-4">
+                  POLITICS
+                </div>
+              </div>
+              
             </a>
             
             <h2 class="news-title-size mt-2">
@@ -656,7 +726,13 @@
           </article>
           <article class="col-md-6 col-lg-3">
             <a class="position-relative" href="#">
-              <img class="img-fluid" src="https://source.unsplash.com/1421x1010" alt="image">
+              <div class="position-relative">
+                <img class="img-fluid" src="https://source.unsplash.com/1421x1010" alt="image">
+                <div class=" font-weight-bold position-absolute mini-text-photo text-danger py-2 px-4">
+                  U.S
+                </div>
+              </div>
+              
             </a>
             
             <h2 class="news-title-size mt-2">
@@ -675,7 +751,12 @@
           </article>
           <article class="col-md-6 col-lg-3">
             <a class="position-relative" href="#">
-              <img class="img-fluid" src="https://source.unsplash.com/1425x1013" alt="image">
+              <div class="position-relative">
+                <img class="img-fluid" src="https://source.unsplash.com/1425x1013" alt="image">
+                <div class=" font-weight-bold position-absolute mini-text-photo text-danger py-2 px-4">
+                  WORLD
+                </div>
+              </div>  
             </a>
             
             <h2 class="news-title-size mt-2">
@@ -693,9 +774,13 @@
           </article>
           <article  class="col-md-6 col-lg-3">
             <a class="position-relative" href="#">
-              <img class="img-fluid" src="https://source.unsplash.com/1512x1003" alt="image">
-            </a>
-            
+              <div class="position-relative">
+                <img class="img-fluid" src="https://source.unsplash.com/1512x1003" alt="image">
+                <div class=" font-weight-bold position-absolute mini-text-photo text-danger py-2 px-4">
+                  POLITICS
+                </div>
+              </div>     
+            </a> 
             <h2 class="news-title-size mt-2">
               <b>
                 <a href="#" class="text-dark">
@@ -711,9 +796,13 @@
           </article>
           <article  class="col-md-6 col-lg-3">
             <a class="position-relative" href="#">
-              <img class="img-fluid" src="https://source.unsplash.com/1422x1013" alt="image">
+              <div class="position-relative">
+                <img class="img-fluid" src="https://source.unsplash.com/1422x1013" alt="image">
+                <div class=" font-weight-bold position-absolute mini-text-photo text-danger py-2 px-4">
+                  TECH & SCIENCE
+                </div>
+              </div>   
             </a>
-            
             <h2 class="news-title-size mt-2">
               <b>
                 <a class="text-dark">What Donald Trump Said at First Rally Since COVID Recovery</a>
@@ -731,8 +820,8 @@
           <h3>
             <a class="text-danger font-weight-bolder h5" href="#">U.S</a>
           </h3>
-          <div class="d-flex flex-column flex-md-row">
-            <div class="d-flex flex-column flex-md-row">
+          <div class="row">
+            <div class="d-flex col-md-7">
               <div class="pr-md-4">
                 <a href="#"><img class="img-fluid" src="https://source.unsplash.com/1000x600" alt="image"></a>
                 <h6 class="mt-2">
@@ -746,7 +835,7 @@
                 </h6>
               </div>
             </div>
-            <div class="ml-md-4">
+            <div class="col-md-5">
               <div class="d-flex  border-bottom">
                 <a href="#"><img src="https://source.unsplash.com/100x100" alt="image"></a>
                 <h6 class="p-2"><a class="text-dark font-weight-bolder" href="#">Texas Sees Long Lines as Early Voting Begins</a></h6>
@@ -766,8 +855,8 @@
           <h3>
             <a class="text-danger font-weight-bolder h5" href="#">World</a>
           </h3>
-          <div class="d-flex flex-column flex-md-row">
-            <div class="d-flex flex-column flex-md-row">
+          <div class="row">
+            <div class="d-flex col-md-7">
               <div class="pr-md-4">
                 <a href="#"><img class="img-fluid" src="https://source.unsplash.com/1000x602" alt="image"></a>
                 <h6 class="mt-2">
@@ -781,7 +870,7 @@
                 </h6>
               </div>
             </div>
-            <div class="ml-md-4">
+            <div class="col-md-5">
               <div class="d-flex border-bottom">
                 <a href="#"><img src="https://source.unsplash.com/100x103" alt="image"></a>
                 <h6 class="p-2"><a class="text-dark font-weight-bolder" href="#">Texas Sees Long Lines as Early Voting Begins</a></h6>
@@ -801,8 +890,8 @@
           <h3>
             <a class="text-danger font-weight-bolder h5" href="#">Business</a>
           </h3>
-          <div class="d-flex flex-column flex-md-row">
-            <div class="d-flex flex-column flex-md-row">
+          <div class="row">
+            <div class="d-flex col-md-7">
               <div class="pr-md-4">
                 <a href="#"><img class="img-fluid" src="https://source.unsplash.com/1001x602" alt="image"></a>
                 <h6 class="mt-2">
@@ -816,7 +905,7 @@
                 </h6>
               </div>
             </div>
-            <div class="ml-md-4">
+            <div class="col-md-5">
               <div class="d-flex border-bottom">
                 <a href="#"><img src="https://source.unsplash.com/101x103" alt="image"></a>
                 <h6 class="p-2"><a class="text-dark font-weight-bolder" href="#">Texas Sees Long Lines as Early Voting Begins</a></h6>
@@ -836,8 +925,8 @@
           <h3>
             <a class="text-danger font-weight-bolder h5" href="#">Tech & Science</a>
           </h3>
-          <div class="d-flex flex-column flex-md-row">
-            <div class="d-flex flex-column flex-md-row">
+          <div class="row">
+            <div class="d-flex col-md-7">
               <div class="pr-md-4">
                 <a href="#"><img class="img-fluid" src="https://source.unsplash.com/1003x602" alt="image"></a>
                 <h6 class="mt-2">
@@ -851,7 +940,7 @@
                 </h6>
               </div>
             </div>
-            <div class="ml-md-4">
+            <div class="col-md-5">
               <div class="d-flex border-bottom">
                 <a href="#"><img src="https://source.unsplash.com/104x103" alt="image"></a>
                 <h6 class="p-2"><a class="text-dark font-weight-bolder" href="#">Texas Sees Long Lines as Early Voting Begins</a></h6>
@@ -871,8 +960,8 @@
           <h3>
             <a class="text-danger font-weight-bolder h5" href="#">Culture</a>
           </h3>
-          <div class="d-flex flex-column flex-md-row">
-            <div class="d-flex flex-column flex-md-row">
+          <div class="row">
+            <div class="d-flex col-md-7">
               <div class="pr-md-4">
                 <a href="#"><img class="img-fluid" src="https://source.unsplash.com/1003x604" alt="image"></a>
                 <h6 class="mt-2">
@@ -886,7 +975,7 @@
                 </h6>
               </div>
             </div>
-            <div class="ml-md-4">
+            <div class="col-md-5">
               <div class="d-flex border-bottom">
                 <a href="#"><img src="https://source.unsplash.com/104x106" alt="image"></a>
                 <h6 class="p-2"><a class="text-dark font-weight-bolder" href="#">Texas Sees Long Lines as Early Voting Begins</a></h6>
@@ -906,8 +995,8 @@
           <h3>
             <a class="text-danger font-weight-bolder h5" href="#">Sports</a>
           </h3>
-          <div class="d-flex flex-column flex-md-row">
-            <div class="d-flex flex-column flex-md-row">
+          <div class="row">
+            <div class="d-flex col-md-7">
               <div class="pr-md-4">
                 <a href="#"><img class="img-fluid" src="https://source.unsplash.com/1005x604" alt="image"></a>
                 <h6 class="mt-2">
@@ -921,7 +1010,7 @@
                 </h6>
               </div>
             </div>
-            <div class="ml-md-4">
+            <div class="col-md-5">
               <div class="d-flex border-bottom">
                 <a href="#"><img src="https://source.unsplash.com/107x106" alt="image"></a>
                 <h6 class="p-2"><a class="text-dark font-weight-bolder" href="#">Texas Sees Long Lines as Early Voting Begins</a></h6>
