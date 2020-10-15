@@ -9,63 +9,21 @@
 }
 
 .header-logo {
-  margin-top: -0.5rem;
   width: 8rem;
 }
 
-.navbar {
-  padding: 0 0.1rem;
-  margin-bottom: -0.7rem;
-}
-
 .btn {
-  padding: 0.2rem 0.5rem;
-  font-size: 0.7rem;
   background-color: #ffe400;
   border-radius: 3rem;
-  margin: auto 0.6rem;
 }
 
 i {
-  color: rgba(255, 255, 255, 0.699);
-}
-
-.navbar p {
-  margin-bottom: 0.1rem;
-}
-
-.container-fluid {
-  padding: 0;
-}
-
-.ul-inline-block li {
-  padding-left: 1.3%;
-  display: inline;
+  color: #ffffffb2;
 }
 
 .ul-inline-block li + li {
   border-left: #9b9b9b solid 1px;
-}
-
-.ul-inline-block {
-  width: 85%;
-  margin-left: 0.8rem;
-  padding-left: 0;
-  margin-top: 1rem;
-}
-
-.ul-inline-block a {
-  color: black;
-  font-size: 98%;
-}
-
-input[type=text] {
-  width: 5.4rem;
-  border: none;
-}
-
-.fa-search {
-  color: black;
+  padding: 0 0.5rem;
 }
 
 .max-width {
@@ -91,15 +49,6 @@ input[type=text] {
 
 .line-height {
   line-height: 2rem;
-}
-
-.heading-size {
-  font-size: medium;
-  margin-top: 1rem;
-}
-
-.news-title-size {
-  font-size: 1.3rem;
 }
 
 .news-summary-size {

@@ -19,14 +19,14 @@
     <title>Newsweek clone page</title>
   </head>
   <body class="bg-light">
-    <header class="container-fluid background-color text-light max-width min-width-container sticky-top nav-static">
+    <header class="container-fluid background-color text-light max-width min-width-container sticky-top nav-static p-0">
       <nav class="navbar justify-content-between flex-nowrap align-items-center p-lg-1 py-1 px-3 my-auto">
         <div class="d-none d-lg-block ml-3 line-height">
-          <p><i class="fas fa-cloud-sun"></i> <b>20&#8451; New York City, USA <i class="fas fa-chevron-right"></i></b></p>
-          <p>Fri, Oct 09, 2020</p>
+          <p class="mb-1"><i class="fas fa-cloud-sun"></i> <b>20&#8451; New York City, USA <i class="fas fa-chevron-right"></i></b></p>
+          <p class="mb-1">Fri, Oct 09, 2020</p>
         </div>
         <a class="navbar-brand  w-lg-25" href="#">
-          <img src="assets/images/Newsweek_Logo.svg.png" alt="Newsweek Logo" class="header-logo">
+          <img src="assets/images/Newsweek_Logo.svg.png" alt="Newsweek Logo" class="mt-n1 header-logo">
         </a>
         <div class="d-flex align-items-center">
           <i class="fas fa-user d-md-none"></i>
@@ -34,7 +34,7 @@
             <span class="d-none d-md-inline font-weight-bold ">
               <a href="#" class="text-white ">LOGIN</a> 
             </span>
-            <button type="button" class="btn btn-warning font-weight-bold text-center">
+            <button type="button" class="btn btn-warning font-weight-bold text-center mx-1 py-1">
                 <b>SUBSCRIBE <i class="fas fa-chevron-right text-dark"></i></b> 
             </button>
             <a href="#">
@@ -47,23 +47,23 @@
                   d-lg-flex align-items-baseline bg-white 
                   container-fluid pt-1 border-bottom nav-two 
                   justify-content-between">
-        <ul class="ul-inline-block d-flex justify-content-between">
-          <li><a href="#"><b>U.S</b></a></li>
-          <li><a href="#"><b>World</b></a></li>
-          <li><a href="#"><b>Business</b></a></li>
-          <li><a href="#"><b>Tech & Science</b></a></li>
-          <li><a href="#"><b>Culture</b></a></li>
-          <li><a href="#"><b>Newsgeek</b></a></li>
-          <li><a href="#"><b>Sports</b></a></li>
-          <li><a href="#"><b>Health</b></a></li>
-          <li><a href="#"><b>The Debate</b></a></li>
-          <li><a href="#"><b>Vantage</b></a></li>
-          <li><a href="#"><b>Wather</b></a></li>
+        <ul class="ul-inline-block d-flex  list-unstyled mt-3 text-nowrap">
+          <li class="d-inline"><a href="#" class="text-dark"><b>U.S</b></a></li>
+          <li class="d-inline"><a href="#" class="text-dark"><b>World</b></a></li>
+          <li class="d-inline"><a href="#" class="text-dark"><b>Business</b></a></li>
+          <li class="d-inline"> <a href="#" class="text-dark"><b>Tech & Science</b></a></li>
+          <li class="d-inline"><a href="#" class="text-dark"><b>Culture</b></a></li>
+          <li class="d-inline"><a href="#" class="text-dark"><b>Newsgeek</b></a></li>
+          <li class="d-inline"><a href="#" class="text-dark"><b>Sports</b></a></li>
+          <li class="d-inline"><a href="#" class="text-dark"><b>Health</b></a></li>
+          <li class="d-inline"><a href="#" class="text-dark"><b>The Debate</b></a></li>
+          <li class="d-inline"><a href="#" class="text-dark"><b>Vantage</b></a></li>
+          <li class="d-inline"><a href="#" class="text-dark"><b>Wather</b></a></li>
         </ul>
-        <form action="submit" class="d-inline ml-1 mr-auto">
-          <input type="text" placeholder="Search">
+        <form action="submit" class="d-iflex ml-1 mr-auto text-nowrap">
+          <input type="text" placeholder="Search" class="w-50 border-0">
           <button class="border-0 bg-light text-dark" type="button">
-            <i class="fas fa-search"></i>
+            <i class="fas fa-search text-dark"></i>
           </button>
         </form>
       </nav>
@@ -81,7 +81,7 @@
     <main class="min-width-container max-width container-fluid bg-white">
       <div class="first-section-grid mx-md-2 mx-lg-4 separator">
         <section class="p-2 separator top-story">
-          <h2 class="text-muted heading-size ml-2"><b>TOP STORY</b></h2>
+          <h2 class="text-muted mt-3 h6 ml-2"><b>TOP STORY</b></h2>
           <article class="px-2">
             <a href="#" class="text-dark">
               <div class="position-relative">
@@ -90,7 +90,7 @@
                   WORLD
                 </div>
               </div>
-              <h2 class="news-title-size mt-2">
+              <h2 class="h5 mt-2">
                 <b>
                   McConnell Says New Stimulus 'Unlikely' in Next 3 Weeks'; Trump Wants $1.8T
                 </b>
@@ -100,7 +100,7 @@
           </article>
         </section>
         <section class="p-2 separator featured-stories">
-          <h2 class="text-muted heading-size"><b> FEATURED STORIES</b></h2>
+          <h2 class="text-muted mt-3 h6"><b> FEATURED STORIES</b></h2>
           <article>
             <a href="#" class="text-dark">
               <div class="position-relative">
@@ -109,7 +109,7 @@
                   OPINION
                 </div>
               </div>
-              <h2 class="news-title-size mt-2"><b>Amy Coney Barrett Rose Garden Event Was a COVID Superspreader, Data Shows</b></h2>
+              <h5 class=" mt-2"><b>Amy Coney Barrett Rose Garden Event Was a COVID Superspreader, Data Shows</b></h5>
             </a>
             <p class="news-summary-size">According to data, that was released on Tableau Public by Peter James Walker, at least 37 cases of the new coronavirus were confirmed within 12 days after Barrett's nomination event on September 26. Newsweek reached out to Walker for comment.</p>
           </article>
@@ -121,7 +121,7 @@
                   TECH & SCIENCE
                 </div>
               </div>
-              <h2 class="news-title-size mt-2"><b>Voters Will Consider a Record Number of All-Female Races in 2020 Election</b></h2>
+              <h5 class=" mt-2"><b>Voters Will Consider a Record Number of All-Female Races in 2020 Election</b></h5>
             </a>
             <p class="news-summary-size">"When women are at the decision-making table, we get a vastly different picture of what the country needs," Representative Deb Haaland told Newsweek.</p>
           </article>
@@ -133,7 +133,7 @@
                   U.S.
                 </div>
               </div>
-              <h2 class="news-title-size mt-2"><b>Armenia, Azerbaijan Supporters At War Around World, Fighting for Awareness</b></h2>
+              <h5 class=" mt-2"><b>Armenia, Azerbaijan Supporters At War Around World, Fighting for Awareness</b></h5>
             </a>
             <p class="news-summary-size">""I think I wouldn't be overestimating by saying every Armenian in the world is disturbed by this, is moved by this and is in action having to do with this," singer-songwriter Serj Tankian told Newsweek.</p>
           </article>
@@ -145,7 +145,7 @@
                   NEWS
                 </div>
               </div>
-              <h2 class="news-title-size mt-2"><b>Hurricane Delta Set to Hit Area of Louisiana Where 10,000 Homes Destroyed</b></h2>
+              <h5 class=" mt-2"><b>Hurricane Delta Set to Hit Area of Louisiana Where 10,000 Homes Destroyed</b></h5>
             </a> 
             <p class="news-summary-size">"Hurricane Delta is expected to make landfall on Friday evening in almost the exact area devastated by Hurricane Laura in August.</p>
           </article>
@@ -157,13 +157,13 @@
                   NEWS
                 </div>
               </div>
-              <h2 class="news-title-size mt-2"><b>U.S. Could Reach Herd Immunity with 47 Percent Infection Rate, Study Finds</b></h2>
+              <h5 class=" mt-2"><b>U.S. Could Reach Herd Immunity with 47 Percent Infection Rate, Study Finds</b></h5>
             </a>
             <p class="news-summary-size">Frequently cited estimates suggest this can only be achieved when 60 percent or more of the population is infected.</p>
           </article>
         </section>
         <section class="debate-container">
-          <h2 class="text-muted heading-size pl-3 p-2"><b>DEBATE</b></h2>
+          <h2 class="text-muted mt-3 h6 pl-3 p-2"><b>DEBATE</b></h2>
           <div class="position-relative main-debate-container separator px-2 mt-n2">
             <a href="#" class="d-flex man-one text-dark pt-3 ">
               <img class="min-images" src="assets/images/man.png" alt="man">
@@ -195,7 +195,7 @@
             </a>
           </div>
           <div class="opinion p-2 separator">
-            <h2 class="text-muted heading-size pt-2"><b>OPINION</b> </h2>
+            <h2 class="text-muted mt-3 h6 pt-2"><b>OPINION</b> </h2>
             <a href="#" class="d-flex text-dark pt-1 pb-1">
               <img class="min-images" src="assets/images/man-3.png" alt="man">
               <div class="p-3">
@@ -266,7 +266,7 @@
           </div>
         </section>
         <section class="separator more-stories pt-3">
-          <h2 class="text-muted heading-size  p-2">
+          <h2 class="text-muted mt-3 h6 p-2">
             <b>MORE STORIES</b> 
           </h2>
           <article class="py-2 mx-3 border-bottom border-top">
@@ -453,7 +453,7 @@
         </section>
         <div class="separator my-t-culture">
           <section class="p-2">
-            <h2 class="text-muted heading-size"><b>MY TURN</b></h2>
+            <h2 class="text-muted mt-3 h6"><b>MY TURN</b></h2>
             <div class="d-md-flex px-md-3 justify-content-around">
               <article class="pr-md-3 d-md-flex align-items-md-center flex-md-column">
                 <img class="img-fluid" src="https://source.unsplash.com/1505x1002" alt="image">
@@ -490,7 +490,7 @@
             </div>
           </section>
           <section class="px-2 pt-md-n5">
-            <h2 class="heading-size  mt-md-n3">
+            <h2 class="mt-3 h6  mt-md-n3">
               <a href=""  class="text-muted">
                 <b>Culture & Travel</b>
               </a>
@@ -638,11 +638,11 @@
               </a>
             </div>
           
-            <h2 class="news-title-size mt-2">
+            <h5 class=" mt-2">
               <b>
                 <a href="#" class="text-dark">Donald Trump Outspends Joe Biden on Facebook Ads In These Key States</a>
               </b>
-            </h2>
+            </h5>
             <p class="news-summary-size">
               According to the social media giant, Trump has spent more in Texas, Iowa,
               Ohio and Nebraska. The president is targeting blocs of voters in states that 
@@ -661,14 +661,14 @@
               </a>
             </div>
             
-            <h2 class="news-title-size mt-2">
+            <h5 class=" mt-2">
               <b>
                 <a href="#" class="text-dark">
                   Trump Supporter Says His Earnings Have Quadrupled As Debt Collector
                 </a>
                 
               </b>
-            </h2>
+            </h5>
             <p class="news-summary-size">
               Klepper interviewed supporters at a recent Trump rally and was amused 
               by one man who was 
@@ -687,14 +687,14 @@
               </a>
             </div>
             
-            <h2 class="news-title-size mt-2">
+            <h5 class=" mt-2">
               <b>
                 <a href="#" class="text-dark">
                   White House Embraces Herd Immunity in Latest Push to End COVID-19 Lockdowns
                 </a>
                 
               </b>
-            </h2>
+            </h5>
             <p class="news-summary-size">
               The White House is doubling down on its push to reopen the economy, now openly 
               embracing a herd immunity strategy 
@@ -712,14 +712,14 @@
               
             </a>
             
-            <h2 class="news-title-size mt-2">
+            <h5 class="mt-2">
               <b>
                 <a href="#" class="text-dark">
                   What Donald Trump Said at First Rally Since COVID Recovery
                 </a>
                 
               </b>
-            </h2>
+            </h5>
             <p class="news-summary-size">
               The coronavirus crisis was a focus for the president in Florida, who 
               defended his actions amid the pandemic.
@@ -736,14 +736,14 @@
               
             </a>
             
-            <h2 class="news-title-size mt-2">
+            <h5 class=" mt-2">
               <b>
                 <a href="#" class="text-dark">
                   Why Google, Facebook and Amazon Could Pay Billions More in Tax
                 </a>
                 
               </b>
-            </h2>
+            </h5>
             <p class="news-summary-size">
               New measures could see tech giants paying corporate taxes on profits 
               where they operate and 
@@ -760,14 +760,14 @@
               </div>  
             </a>
             
-            <h2 class="news-title-size mt-2">
+            <h5 class=" mt-2">
               <b>
                 <a href="#" class="text-dark">
                   Shark Whose Head Was 'Slowly Being Sliced Off' by Plastic Strap Rescued
                 </a>
                 
               </b>
-            </h2>
+            </h5>
             <p class="news-summary-size">
               The seven foot porbeagle shark had been entangled in a piece 
               of plastic when it was younger.
@@ -782,14 +782,14 @@
                 </div>
               </div>     
             </a> 
-            <h2 class="news-title-size mt-2">
+            <h5 class=" mt-2">
               <b>
                 <a href="#" class="text-dark">
                   What Is Spaghettification? Black Hole 'Sucking In' Star Seen by Scientists
                 </a>
                 
               </b>
-            </h2>
+            </h5>
             <p class="news-summary-size">
               Scientists spotted the star being ripped apart by a black hole millions of 
               light-years from Earth.
@@ -804,11 +804,11 @@
                 </div>
               </div>   
             </a>
-            <h2 class="news-title-size mt-2">
+            <h5 class=" mt-2">
               <b>
                 <a class="text-dark">What Donald Trump Said at First Rally Since COVID Recovery</a>
               </b>
-            </h2>
+            </h5>
             <p class="news-summary-size">
               The coronavirus crisis was a focus for the president in Florida, who defended 
               his actions amid the pandemic.
