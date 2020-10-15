@@ -51,24 +51,12 @@ i {
   line-height: 2rem;
 }
 
-.news-summary-size {
-  font-size: small;
-}
-
-.man-title-size {
-  font-size: 1rem;
-}
-
 .min-width-container {
   min-width: 331px;
 }
 
 .vs-logo {
   z-index: 2;
-  width: 2.3rem;
-  font-size: 0.8rem;
-  background-color: black;
-  padding: 0.6rem 0.5rem;
 }
 
 .logo-container::before {
@@ -97,10 +85,6 @@ i {
   display: inline-block;
   height: 0.1rem;
   background-color: var(--gray-one);
-}
-
-.man-one {
-  position: static;
 }
 
 .min-images {
