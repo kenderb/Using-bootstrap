@@ -392,7 +392,7 @@ input[type=text] {
   }
 
   .bg-phone {
-    height: 10rem;
+    height: 20rem;
   }
 
   .buttom-links li + li {
@@ -401,7 +401,7 @@ input[type=text] {
   }
 
   .buttom-links {
-    line-height: 0.5rem;
+    line-height: 1.5rem;
     font-size: 0.9rem;
     margin-bottom: 2.5rem;
     margin-top: 0.5rem;
