@@ -17,10 +17,6 @@
   border-radius: 3rem;
 }
 
-i {
-  color: #ffffffb2;
-}
-
 .ul-inline-block li + li {
   border-left: #9b9b9b solid 1px;
   padding: 0 0.5rem;
@@ -28,11 +24,6 @@ i {
 
 .max-width {
   max-width: 80rem;
-}
-
-.nav-two {
-  padding-top: 1rem;
-  position: relative;
 }
 
 .nav-two form::after {
@@ -287,6 +278,7 @@ i {
   .float-header {
     bottom: 0;
   }
+
   .bg-phone {
     height: 14rem;
   }
