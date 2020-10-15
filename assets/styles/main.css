@@ -60,7 +60,7 @@ i {
 }
 
 input[type=text] {
-  width: 3.4rem;
+  width: 5.4rem;
   border: none;
 }
 
@@ -269,7 +269,7 @@ input[type=text] {
 }
 
 .bg-phone {
-  background-image: url('../assets/images/phone.png');
+  background-image: url('../images/phone.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
