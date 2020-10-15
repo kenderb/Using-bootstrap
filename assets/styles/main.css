@@ -379,7 +379,7 @@ input[type=text] {
 
   .first-section-grid {
     grid-template-columns: 3fr 4fr 3fr;
-    grid-template-rows: 30rem 33rem auto;
+    grid-template-rows: 30rem 34rem auto 1fr;
     grid-template-areas:
       "featured-stories top-story debate-container"
       "featured-stories my-t-culture  debate-container"
