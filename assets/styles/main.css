@@ -212,6 +212,11 @@ i {
   bottom: 0;
 }
 
+.float-header {
+  bottom: 5rem;
+  line-height: 1rem;
+}
+
 @media screen and (min-width: 768px) {
   .btn {
     padding: 0.2rem 0.8rem;
@@ -278,6 +283,13 @@ i {
   .issue-text-size {
     font-size: 0.8rem;
   }
+
+  .float-header {
+    bottom: 0;
+  }
+  .bg-phone {
+    height: 14rem;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -303,7 +315,7 @@ i {
   }
 
   .bg-phone {
-    height: 20rem;
+    height: 16.3rem;
   }
 
   .buttom-links li + li {
