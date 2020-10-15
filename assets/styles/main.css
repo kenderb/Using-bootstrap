@@ -202,7 +202,6 @@ i {
   height: 10rem;
 }
 
-
 .footer-header img {
   width: 15rem;
 }
@@ -212,7 +211,6 @@ i {
   background-color: #f5f5f5f3;
   bottom: 0;
 }
-
 
 @media screen and (min-width: 768px) {
   .btn {
@@ -284,7 +282,6 @@ i {
   .issue-text-size {
     font-size: 0.8rem;
   }
-  
 }
 
 @media screen and (min-width: 992px) {
@@ -334,6 +331,7 @@ i {
     font-size: 1.2rem;
     font-weight: bolder;
   }
+
   .nav-static {
     position: static;
   }
