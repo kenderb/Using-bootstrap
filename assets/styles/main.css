@@ -131,10 +131,6 @@
   width: 2.5rem;
 }
 
-.magazine-section h2 {
-  font-size: 1.3rem;
-}
-
 .promotion-section img {
   max-width: 10rem;
 }
@@ -221,14 +217,6 @@
     padding: 0.2rem 0.1rem;
   }
 
-  .separator {
-    border: none;
-  }
-
-  .my-3 span {
-    font-size: 0.7rem;
-  }
-
   .col-md-3 h5 {
     font-size: 1rem;
   }
@@ -237,10 +225,6 @@
   .featured-stories {
     position: sticky;
     top: 0;
-  }
-
-  .issue-text-size {
-    font-size: 0.8rem;
   }
 
   .float-header {
@@ -270,10 +254,6 @@
       ". more-stories  . ";
   }
 
-  .news-signup {
-    margin: 0 auto;
-  }
-
   .bg-phone {
     height: 16.3rem;
   }
@@ -284,20 +264,7 @@
   }
 
   .buttom-links {
-    line-height: 1.5rem;
-    font-size: 0.9rem;
-    margin-bottom: 2.5rem;
-    margin-top: 0.5rem;
-  }
-
-  .issue-text-size {
-    font-size: 0.9rem;
-  }
-
-  .last-section h6 {
-    line-height: 2rem;
-    font-size: 1.2rem;
-    font-weight: bolder;
+    line-height: 1rem;
   }
 
   .nav-static {
