@@ -101,12 +101,6 @@
   background-color: var(--gray-one);
 }
 
-.min-imge-more {
-  margin-right: 1rem;
-  width: 6rem;
-  height: 6rem;
-}
-
 .first-section-grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -130,36 +124,15 @@
 }
 
 .news-signup {
-  width: 15rem;
-  height: 10rem;
+  width: 20rem;
 }
 
 .n-img {
-  width: 2rem;
-  height: 2rem;
-  margin: 0.5rem;
-}
-
-.news-signup h2 {
-  font-size: 1.05rem;
-  font-weight: bolder;
-  line-height: 1rem;
-  margin: 0.5rem;
-  height: 3rem;
-}
-
-.news-signup button {
-  width: 13rem;
-  margin-top: 0.5rem;
+  width: 2.5rem;
 }
 
 .magazine-section h2 {
   font-size: 1.3rem;
-}
-
-.last-section h6 {
-  line-height: 1rem;
-  font-size: small;
 }
 
 .promotion-section img {
@@ -173,11 +146,6 @@
 .mini-cover-one {
   top: 0.8rem;
   left: 4rem;
-}
-
-.women-conianer {
-  padding-right: 15rem;
-  width: 10rem;
 }
 
 .buttom-links li + li {
