@@ -297,6 +297,7 @@ input[type=text] {
   bottom: 0;
 }
 
+
 @media screen and (min-width: 768px) {
   .btn {
     padding: 0.2rem 0.8rem;
@@ -367,6 +368,7 @@ input[type=text] {
   .issue-text-size {
     font-size: 0.8rem;
   }
+  
 }
 
 @media screen and (min-width: 992px) {
