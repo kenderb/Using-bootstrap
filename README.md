@@ -1,65 +1,60 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Newsweek-Clone-Page
 
-> One paragraph statement about the project.
+> This project is a imitation of the newsweek.com website built for educational purposes.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./assets/images/screenshot.png)
 
-Additional description about the project and its features.
+Bootstrap was implemented in order to get familiar with the tool and new features were
+used as well.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- Bootstrap
+- Fontawesome
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://rawcdn.githack.com/kenderb/Using-bootstrap/6ec92167ecc87d9fcb8a951f499da62e23e3f57e/index.html)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
+### You need to clone the repository on your device.
 
-### Setup
+### Unzip the repository or just clone it using git or github.
 
-### Install
+### Grab the index.html file and open it on your favorite browser
 
-### Usage
-
-### Run tests
-
-### Deployment
+## Try the page with the Demo Link above.
 
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Kender Bolivar**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@kenderb](https://github.com/ken)
+- Twitter: [@twitterhandle](https://twitter.com/KBTarts )
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/kender-bolivar-1736086b/ )
 
-👤 **Author2**
+👤 **Juan Raudales**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/Jarfsoft)
+- Twitter: [@twitterhandle](https://twitter.com/Jarfsoft)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/juan-raudales-flores-7b0a3b113/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/kenderb/Using-bootstrap/issues).
 
 ## Show your support
 
@@ -67,10 +62,5 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](lic.url) licensed.
+- We3schools
+- Stack Overflow
