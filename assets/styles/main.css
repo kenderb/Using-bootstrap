@@ -116,14 +116,6 @@ i {
   height: 6rem;
 }
 
-.resize-heading-h3 {
-  font-size: 0.9rem;
-}
-
-.small-p {
-  font-size: 0.8rem;
-}
-
 .first-section-grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -210,18 +202,9 @@ i {
   height: 10rem;
 }
 
-.footer-header i {
-  color: gray;
-  font-size: x-large;
-  padding: 0.3rem;
-}
 
 .footer-header img {
   width: 15rem;
-}
-
-.footer-header span {
-  font-size: 0.8rem;
 }
 
 .mini-text-photo {
