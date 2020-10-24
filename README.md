@@ -18,7 +18,7 @@ used as well.
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/kenderb/Using-bootstrap/6ec92167ecc87d9fcb8a951f499da62e23e3f57e/index.html)
+[Live Demo Link](https://kenderb.github.io/Newsweek-clone-page/)
 
 
 ## Getting Started
